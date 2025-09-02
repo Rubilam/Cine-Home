@@ -2,6 +2,8 @@
 
 CineHome é uma plataforma de streaming fictícia para exibição de filmes, desenvolvida como projeto de estudo em frontend/UI. O objetivo é recriar a experiência de navegação dos grandes serviços de streaming, com design moderno, responsivo e foco em usabilidade.
 
+🖌️FIGMA:( 'https://www.figma.com/design/URO6O9dDbJYb0x0mDw1nof/CINEHOME?node-id=0-1&t=4RDyrwqPdzcCth3x-1' )
+
 ✨ Funcionalidades
 
 🎥 Página inicial interativa com destaque para filmes em cartaz
