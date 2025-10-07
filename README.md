@@ -1,30 +1,38 @@
 #🎬 Cine-Home
 
-CineHome é uma plataforma de streaming fictícia para exibição de filmes, desenvolvida como projeto de estudo em frontend/UI. O objetivo é recriar a experiência de navegação dos grandes serviços de streaming, com design moderno, responsivo e foco em usabilidade.
+CineHome é uma plataforma onde contamos com suporte de API'S para reunir notas, sinopses e até mesmo com trailers de filmes inéditos. Desenvolvida como projeto de estudo em frontend/UI. O objetivo é recriar a experiência de todos amantes do cinema contemporaneo, com design moderno, responsivo e foco exessivo em usabilidade.
 
-✨ Funcionalidades
+<img width="1918" height="975" alt="tela de login" src="https://github.com/user-attachments/assets/d6f9b421-aa8f-429a-a2ba-1f58d8e4d0ed" />
 
-🎥 Página inicial interativa com destaque para filmes em cartaz
 
-🔍 Barra de pesquisa para encontrar filmes rapidamente
+  ##• ✨ Funcionalidades:
 
-📌 Categorias e filtros (Ação, Drama, Ficção, Comédia, etc.)
+- 🎥 Página inicial interativa com destaque para filmes em cartaz
 
-🔥 Top 10 filmes mais assistidos
+- 🔍 Barra de pesquisa para encontrar filmes rapidamente
 
-⭐ Seus favoritos com lista personalizada
+- 📌 Categorias e filtros (Ação, Drama, Ficção, Comédia, etc.)
 
-🤩 Sugestões automáticas de filmes recomendados
+- 🔥 Top 10 filmes mais assistidos
 
-📱 Layout responsivo para desktop e mobile
+- ⭐ Seus favoritos com lista personalizada
 
-🛠️ Tecnologias utilizadas
+- 🤩 Sugestões automáticas de filmes recomendados
 
-HTML5
+- 📱 Layout responsivo para desktop e mobile
 
-CSS3 / Tailwind (Framework ou boostrap se usar)
+  <img width="1902" height="820" alt="home page" src="https://github.com/user-attachments/assets/4cfb5aeb-ce80-44c7-90a7-77b684dcb699" />
 
-JavaScript (React/Vanilla, tanto faz)
+
+  ##• 🛠️ Tecnologias utilizadas:
+
+- 🩻 HTML5 para estruturação do site
+
+- 📁 PHP na integração do mesmo com o banco de dados
+
+- 🎨 CSS3 externa para estilização de totas as páginas
+
+- ⚡️ JavaScript em interação, e feedbacks ao usuário sobre seu navegamento
 
 🎯 Objetivo
 
