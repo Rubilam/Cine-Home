@@ -1,11 +1,11 @@
-🎬 #Cine-Home
+#🎬 Cine-Home
 
 CineHome é uma plataforma onde contamos com suporte de API'S para reunir notas, sinopses e até mesmo com trailers de filmes inéditos. Desenvolvida como projeto de estudo em frontend/UI. O objetivo é recriar a experiência de todos amantes do cinema contemporaneo, com design moderno, responsivo e foco exessivo em usabilidade.
 
 <img width="1918" height="975" alt="tela de login" src="https://github.com/user-attachments/assets/d6f9b421-aa8f-429a-a2ba-1f58d8e4d0ed" />
 
 
-  ##• ✨ Funcionalidades:
+  • ✨ Funcionalidades:
 
 - 🎥 Página inicial interativa com destaque para filmes em cartaz
 
@@ -24,7 +24,7 @@ CineHome é uma plataforma onde contamos com suporte de API'S para reunir notas,
   <img width="1902" height="820" alt="home page" src="https://github.com/user-attachments/assets/4cfb5aeb-ce80-44c7-90a7-77b684dcb699" />
 
 
-  ##• 🛠️ Tecnologias utilizadas:
+  • 🛠️ Tecnologias utilizadas:
 
 - 🩻 HTML5 para estruturação do site
 
