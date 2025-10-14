@@ -1,8 +1,7 @@
 <?php
 
-    if(isset($_POST['submit']))
+    if(isset($_POST['submit'])){
       include_once('../config.php');
-    {
       // print_r('Nome: ' . $_POST['nome']);
       // print_r('<br>');
       // print_r('Email: ' . $_POST['email']);
@@ -13,15 +12,13 @@
     $email = $_POST['email'];
     $senha = $_POST['senha'];
 
-    $result = mysqli_query($conexao, 
-        "INSERT INTO usuarios (nome, email, senha) VALUES ('$nome', '$email', '$senha')"
-    );
+    $result = mysqli_query ($conexao, "INSERT INTO usuarios (nome, email, senha) VALUES ('$nome', '$email', '$senha')");
 
-    //if ($result) {
-    //    echo "Usuário cadastrado com sucesso!";
-    //} else {
-    //    echo "Erro ao cadastrar: " . mysqli_error($conexao);
-    //}
+    if ($result) {
+        echo "Usuário cadastrado com sucesso!";
+    } else {
+        echo "Erro ao cadastrar: " . mysqli_error($conexao);
+    }
   }
 ?> 
 
@@ -38,6 +35,7 @@
 
 
 <body>
+  <a href="home.php">Voltar</a>
 <h1 class="site-title">
   <span class="cine">CINE</span><span class="home">HOME</span>
 </h1>
@@ -59,17 +57,17 @@
       <!--Login fará resquest no banco de dados-->
 
       <div class="form-inner">
-        <form action="#" class="login">
+        <form action="testLogin.php" method="POST" class="login">
           <div class="field">
-            <input type="text" placeholder="Endereço de e-mail" required>
+            <input type="text" name = "email" placeholder="Endereço de e-mail" required>
           </div>
           <div class="field">
-            <input type="password" placeholder="Senha" required>
+            <input type="password" name = "senha" placeholder="Senha" required>
           </div>
           <div class="pass-link"><a href="#">Esqueceu a senha?</a></div>
           <div class="field btn">
             <div class="btn-layer"></div>
-            <input type="submit" value="Entrar">
+            <input type="submit" name="submit" value="Entrar">
           </div>
           <div class="signup-link">Novo aqui? <a href="#">Cadastre-se agora!</a></div>
         </form>
